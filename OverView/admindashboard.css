@@ -1,0 +1,30 @@
+.admin-container {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .dash-card {
+    width: 45%;
+    margin: 10px; 
+    padding: 15px;
+    color: white;
+    font-size: 35px;
+    background: -webkit-linear-gradient(
+      top,
+      #681a639c 0%,
+      #3c1c65a5 62%,
+      #312060ba 100%)
+  }
+
+  .dash-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15px;
+    
+  }
+  
+  .dash-button:hover {
+    background-color: lightblue; 
+  }
